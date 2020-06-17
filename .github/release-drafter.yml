@@ -3,8 +3,7 @@ tag-template: 'v$RESOLVED_VERSION'
 categories:
     - title: 'Features'
       labels: 'feature'
-change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
-change-template: '- $BODY'
+change-template: '- $TITLE $BODY @$AUTHOR (#$NUMBER)'
 version-resolver:
   major:
     labels:
