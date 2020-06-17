@@ -5,9 +5,9 @@ categories:
       labels: 'feature'
     - title: 'Bug Fixes'
       labels: 'fix'
-change-template: '- $TITLE @$AUTHOR (#$NUMBER):
-
-    > $BODY'
+    - title: 'Ticket'
+      labels: 'ticket'
+change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
 version-resolver:
   major:
     labels:
