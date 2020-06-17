@@ -6,8 +6,8 @@ categories:
     - title: 'Bug Fixes'
       labels: 'fix'
 change-template: | 
-    '- $TITLE @$AUTHOR (#$NUMBER)'
-    ' - $BODY'
+    - $TITLE @$AUTHOR (#$NUMBER) :
+    > $BODY
 version-resolver:
   major:
     labels:
