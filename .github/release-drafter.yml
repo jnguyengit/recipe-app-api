@@ -5,9 +5,7 @@ categories:
       labels: 'feature'
     - title: 'Bug Fixes'
       labels: 'fix'
-change-template: | 
-    - $TITLE @$AUTHOR (#$NUMBER) :
-    > $BODY
+change-template: '- $TITLE @$AUTHOR (#$NUMBER):\n > $BODY'
 version-resolver:
   major:
     labels:
