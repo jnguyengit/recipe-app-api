@@ -4,6 +4,7 @@ categories:
     - title: 'Features'
       labels: 'feature'
 change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
+change-template: '- $BODY'
 version-resolver:
   major:
     labels:
@@ -15,6 +16,7 @@ version-resolver:
     labels:
       - 'patch'
   default: patch
+exclude-labels: 'skip-changelog'
 template: |
   ## What’s Changed
     $CHANGES
