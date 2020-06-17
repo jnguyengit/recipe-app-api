@@ -7,7 +7,7 @@ categories:
       labels: 'fix'
 change-template: | 
     '- $TITLE @$AUTHOR (#$NUMBER)'
-    ' - $Body'
+    ' - $BODY'
 version-resolver:
   major:
     labels:
