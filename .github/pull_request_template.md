@@ -1,20 +1,26 @@
-### Checklist:
+## Checklist
 
 * [ ] Follow PR guidelines https://github.com/iheartradio/content-platform-documentation/blob/master/pr_review/guide.md
 * [ ] Add labels for auto release-drafter
 * [ ] Rebase
 
-### JIRA Ticket:
+## JIRA Ticket
 - 
 
-### Description:
+## Description
+#### Major Changes:
+- 
+#### Improvements:
+- 
+#### Fixes:
 - 
 
-### How to test: 
+
+## How To Test
 - 
 
-### Test Data:
+## Test Data
 - 
 
-### Dependent PRs:
+## Dependent PRs
 - 
