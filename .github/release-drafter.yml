@@ -4,6 +4,7 @@ categories:
     - title: 'Breaking Changes'
       labels:
         - 'breaking'
+        - 'major'
     - title: 'Features'
       labels: 
         - 'feature'
