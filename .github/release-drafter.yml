@@ -2,11 +2,16 @@ name-template: 'v$RESOLVED_VERSION'
 tag-template: 'v$RESOLVED_VERSION'
 categories:
     - title: 'Features'
-      labels: 'feature'
+      labels: 
+        - 'feature'
+        - 'enhancement'
     - title: 'Bug Fixes'
-      labels: 'fix'
-    - title: 'Ticket'
-      labels: 'ticket'
+      labels: 
+        - 'fix'
+        - 'bug'
+        - 'bugfix'
+    - title: 'Dependencies'
+      labels: 'dependency'
 change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
 version-resolver:
   major:
@@ -18,7 +23,7 @@ version-resolver:
   patch:
     labels:
       - 'patch'
-  default: patch
+  default: minor
 exclude-labels: 
     - 'skip-changelog'
 template: |
