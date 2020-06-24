@@ -3,7 +3,7 @@ tag-template: 'v$RESOLVED_VERSION'
 categories:
     - title: 'Breaking Changes'
       labels:
-        - 'breaking'
+        - 'breakingchange'
     - title: 'Features'
       labels: 
         - 'feature'
@@ -18,7 +18,7 @@ version-resolver:
   major:
     labels:
       - 'major'
-      - 'breaking'
+      - 'breakingchange'
   minor:
     labels:
       - 'minor'
